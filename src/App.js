@@ -1,9 +1,17 @@
 
+import AboutUs from './pages/AboutUs'
+import GlobalStyle from './components/GlobalStyle';
+//global style //
+
+
+
 
 function App() {
   return (
     <div className="App">
-     <h1>Film</h1>
+      
+      <AboutUs/>
+      <GlobalStyle />
     </div>
   );
 }
